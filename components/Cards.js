@@ -39,8 +39,6 @@ axios
     console.log('ERROR: something is WRONG: ', err);
 })
 
-
-
 function articleCardMaker(object){
     // Create Element
     const card = document.createElement('div');
@@ -77,3 +75,5 @@ function articleCardMaker(object){
     return card;
     
 }
+
+// MVP
